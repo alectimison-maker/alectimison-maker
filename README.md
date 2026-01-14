@@ -1,16 +1,31 @@
-## Hi there 👋
+# Hi, my name is aliouswe.
 
-<!--
-**alectimison-maker/alectimison-maker** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 一个利用AI开源自我的青年工程师
 
-Here are some ideas to get you started:
+目前专注于机器人视觉、AI智能体、大模型微调等领域。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 一个新生代寒舍咖啡师
+
+擅长手冲、浓缩等类型意式美式研发。
+
+## 一个原生态木雕原创作家
+
+致力于将张力和动态的线条赋予每一块独特的木头 -->[我的作品](https://www.xiaohongshu.com/user/profile/6162a274000000000201d871)
+
+## 一个以爵士乐为生存信条的爵士吉他手
+
+热衷于创造无羁的乐句。
+
+## 一个意识流至上的文字游戏开发者
+
+如果你想了解更多？[Aliouswe's nonsense](https://aliouswe.com/)
+
+
+
+
+
+
+
+### 
+
+
