@@ -1,31 +1,23 @@
-# Hi, my name is aliouswe.
+# Hi, my name is Aliouswe.
 
-## 一个利用AI开源自我的青年工程师
+## An open-source youth engineer empowered by AI
 
-目前专注于机器人视觉、AI智能体、大模型微调等领域。
+Currently focused on robotics vision, AI agents, and large-model fine-tuning.
 
-## 一个新生代寒舍咖啡师
+## A new-generation specialty coffee barista
 
-擅长手冲、浓缩等类型意式美式研发。
+Specializing in pour-over, espresso, and experimental coffee development.
 
-## 一个原生态木雕原创作家
+## An original wood carving artist rooted in raw expression
 
-致力于将张力和动态的线条赋予每一块独特的木头 -->[我的作品](https://www.xiaohongshu.com/user/profile/6162a274000000000201d871)
+Dedicated to embedding tension and dynamic lines into every unique piece of wood →  
+[My Works](https://www.xiaohongshu.com/user/profile/6162a274000000000201d871)
 
-## 一个以爵士乐为生存信条的爵士吉他手
+## A jazz guitarist who lives by jazz as a personal creed
 
-热衷于创造无羁的乐句。
+Passionate about creating free and unrestrained musical phrases.
 
-## 一个意识流至上的文字游戏开发者
+## A stream-of-consciousness game developer in love with words
 
-如果你想了解更多？[Aliouswe's nonsense](https://aliouswe.com/)
-
-
-
-
-
-
-
-### 
-
-
+Want to know more?  
+[Aliouswe's Nonsense](https://aliouswe.com/)
