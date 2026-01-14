@@ -1,5 +1,6 @@
 # Hi, my name is Aliouswe.
-<img width="2358" height="970" alt="image" src="https://github.com/user-attachments/assets/499ba598-9d00-45a5-9bdd-1dfabe22ce73" />
+<img width="1080" height="1240" alt="image" src="https://github.com/user-attachments/assets/90081c57-880a-4a5e-9dbd-3ef6240e8cae" />
+
 
 ## An open-source youth engineer empowered by AI
 
