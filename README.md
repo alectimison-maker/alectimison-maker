@@ -1,4 +1,4 @@
-# Hi, my name is aliouswe.
+# Hi, I'm aliouswe.
 <img width="1080" height="1240" alt="image" src="https://github.com/user-attachments/assets/90081c57-880a-4a5e-9dbd-3ef6240e8cae" />
 
 
