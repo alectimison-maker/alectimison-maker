@@ -69,7 +69,7 @@ Dedicated to embedding tension and dynamic lines into every unique piece of wood
 
 Passionate about creating free and unrestrained musical phrases.
 
-<img src="./assets/jazz-albums-flow-v2.svg" width="100%" alt="Flowing jazz album wall" />
+<img src="./assets/jazz-albums-flow-v3.svg" width="100%" alt="Flowing jazz album wall" />
 
 ## A stream-of-consciousness game developer in love with words
 
