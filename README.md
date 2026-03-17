@@ -36,6 +36,11 @@ Currently focused on robotics vision, AI agents, and large-model fine-tuning.
   <img height="22" src="https://img.shields.io/badge/Claude%20Code-3B2F2F?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
   <img height="22" src="https://img.shields.io/badge/OpenClaw-1E1E1E?style=flat-square&logoColor=white" alt="OpenClaw" />
   <img height="22" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <img height="22" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img height="22" src="https://img.shields.io/badge/Hexo-0E83CD?style=flat-square&logo=hexo&logoColor=white" alt="Hexo" />
+  <img height="22" src="https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white" alt="WireGuard" />
+  <img height="22" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img height="22" src="https://img.shields.io/badge/YOLOv11-111111?style=flat-square&logoColor=white" alt="YOLOv11" />
 </p>
 
 ### Stack Collage
@@ -46,11 +51,15 @@ Currently focused on robotics vision, AI agents, and large-model fine-tuning.
 
 ## A new-generation specialty coffee barista
 
+<img align="right" src="./assets/coffee-barista.jpg" width="150" alt="Coffee barista illustration" />
+
 Specializing in pour-over, espresso, and experimental coffee development.
+
+<br clear="right" />
 
 ## An original wood carving artist rooted in raw expression
 
-Dedicated to embedding tension and dynamic lines into every unique piece of wood →  
+Dedicated to embedding tension and dynamic lines into every unique piece of wood &rarr;  
 [My Works](https://www.xiaohongshu.com/user/profile/6162a274000000000201d871)
 
 ## A jazz guitarist who lives by jazz as a personal creed
