@@ -1,70 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="96" viewBox="0 0 1080 96" role="img" aria-label="Favorite Writers Tags">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="82" viewBox="0 0 1080 82" role="img" aria-label="Favorite Writers Tags">
   <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lacquer&amp;display=swap');
+    </style>
     <linearGradient id="tag-fill" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F6E8CB" />
-      <stop offset="100%" stop-color="#ECD9B6" />
+      <stop offset="0%" stop-color="#EED8B4" />
+      <stop offset="100%" stop-color="#D7B486" />
     </linearGradient>
     <linearGradient id="tag-stroke" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7A4E2D" />
-      <stop offset="100%" stop-color="#9E6A43" />
+      <stop offset="0%" stop-color="#633517" />
+      <stop offset="100%" stop-color="#8A4D25" />
     </linearGradient>
-    <linearGradient id="tag-shine" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
-    </linearGradient>
-    <filter id="soft-shadow" x="-20%" y="-30%" width="140%" height="180%">
-      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#7A4E2D" flood-opacity="0.25" />
+    <pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="0.9" fill="#7F4F2C" opacity="0.12" />
+      <circle cx="12" cy="7" r="0.8" fill="#6C4122" opacity="0.09" />
+      <circle cx="8" cy="14" r="0.7" fill="#875632" opacity="0.1" />
+      <circle cx="15" cy="15" r="0.7" fill="#5A3216" opacity="0.08" />
+    </pattern>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="0.8" stdDeviation="0.9" flood-color="#5A3216" flood-opacity="0.22" />
     </filter>
   </defs>
 
-  <g filter="url(#soft-shadow)" font-family="'Palatino Linotype', 'Book Antiqua', 'Times New Roman', serif" font-size="15.5" fill="#3F2A1D" letter-spacing="0.1">
-    <g transform="translate(128 10)">
-      <rect width="178" height="32" rx="9" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.5" />
-      <rect x="1.5" y="1.5" width="175" height="14" rx="7" fill="url(#tag-shine)" />
-      <circle cx="14" cy="16" r="3.6" fill="#9E6A43" />
-      <text x="26" y="21.6">Haruki Murakami</text>
+  <g filter="url(#soft-shadow)" font-family="'Lacquer', 'Segoe Print', 'Bradley Hand', cursive" font-size="12.8" fill="#2A160B">
+    <g transform="translate(205 8)">
+      <rect width="160" height="24" rx="7" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.3" />
+      <rect x="1.3" y="1.3" width="157.4" height="21.4" rx="6.2" fill="none" stroke="#A16434" stroke-opacity="0.35" stroke-width="0.8" />
+      <rect width="160" height="24" rx="7" fill="url(#grain)" />
+      <circle cx="11" cy="12" r="2.8" fill="#8A4D25" />
+      <text x="20" y="16.6">Haruki Murakami</text>
     </g>
 
-    <g transform="translate(314 10)">
-      <rect width="162" height="32" rx="9" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.5" />
-      <rect x="1.5" y="1.5" width="159" height="14" rx="7" fill="url(#tag-shine)" />
-      <circle cx="14" cy="16" r="3.6" fill="#9E6A43" />
-      <text x="26" y="21.6">Virginia Woolf</text>
+    <g transform="translate(375 8)">
+      <rect width="146" height="24" rx="7" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.3" />
+      <rect x="1.3" y="1.3" width="143.4" height="21.4" rx="6.2" fill="none" stroke="#A16434" stroke-opacity="0.35" stroke-width="0.8" />
+      <rect width="146" height="24" rx="7" fill="url(#grain)" />
+      <circle cx="11" cy="12" r="2.8" fill="#8A4D25" />
+      <text x="20" y="16.6">Virginia Woolf</text>
     </g>
 
-    <g transform="translate(484 10)">
-      <rect width="148" height="32" rx="9" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.5" />
-      <rect x="1.5" y="1.5" width="145" height="14" rx="7" fill="url(#tag-shine)" />
-      <circle cx="14" cy="16" r="3.6" fill="#9E6A43" />
-      <text x="26" y="21.6">Italo Calvino</text>
+    <g transform="translate(531 8)">
+      <rect width="132" height="24" rx="7" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.3" />
+      <rect x="1.3" y="1.3" width="129.4" height="21.4" rx="6.2" fill="none" stroke="#A16434" stroke-opacity="0.35" stroke-width="0.8" />
+      <rect width="132" height="24" rx="7" fill="url(#grain)" />
+      <circle cx="11" cy="12" r="2.8" fill="#8A4D25" />
+      <text x="20" y="16.6">Italo Calvino</text>
     </g>
 
-    <g transform="translate(640 10)">
-      <rect width="226" height="32" rx="9" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.5" />
-      <rect x="1.5" y="1.5" width="223" height="14" rx="7" fill="url(#tag-shine)" />
-      <circle cx="14" cy="16" r="3.6" fill="#9E6A43" />
-      <text x="26" y="21.6">Gabriel Garcia Marquez</text>
+    <g transform="translate(673 8)">
+      <rect width="202" height="24" rx="7" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.3" />
+      <rect x="1.3" y="1.3" width="199.4" height="21.4" rx="6.2" fill="none" stroke="#A16434" stroke-opacity="0.35" stroke-width="0.8" />
+      <rect width="202" height="24" rx="7" fill="url(#grain)" />
+      <circle cx="11" cy="12" r="2.8" fill="#8A4D25" />
+      <text x="20" y="16.6">Gabriel Garcia Marquez</text>
     </g>
 
-    <g transform="translate(286 52)">
-      <rect width="176" height="32" rx="9" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.5" />
-      <rect x="1.5" y="1.5" width="173" height="14" rx="7" fill="url(#tag-shine)" />
-      <circle cx="14" cy="16" r="3.6" fill="#9E6A43" />
-      <text x="26" y="21.6">Fernando Pessoa</text>
+    <g transform="translate(306 42)">
+      <rect width="160" height="24" rx="7" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.3" />
+      <rect x="1.3" y="1.3" width="157.4" height="21.4" rx="6.2" fill="none" stroke="#A16434" stroke-opacity="0.35" stroke-width="0.8" />
+      <rect width="160" height="24" rx="7" fill="url(#grain)" />
+      <circle cx="11" cy="12" r="2.8" fill="#8A4D25" />
+      <text x="20" y="16.6">Fernando Pessoa</text>
     </g>
 
-    <g transform="translate(470 52)">
-      <rect width="178" height="32" rx="9" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.5" />
-      <rect x="1.5" y="1.5" width="175" height="14" rx="7" fill="url(#tag-shine)" />
-      <circle cx="14" cy="16" r="3.6" fill="#9E6A43" />
-      <text x="26" y="21.6">William Faulkner</text>
+    <g transform="translate(476 42)">
+      <rect width="164" height="24" rx="7" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.3" />
+      <rect x="1.3" y="1.3" width="161.4" height="21.4" rx="6.2" fill="none" stroke="#A16434" stroke-opacity="0.35" stroke-width="0.8" />
+      <rect width="164" height="24" rx="7" fill="url(#grain)" />
+      <circle cx="11" cy="12" r="2.8" fill="#8A4D25" />
+      <text x="20" y="16.6">William Faulkner</text>
     </g>
 
-    <g transform="translate(656 52)">
-      <rect width="146" height="32" rx="9" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.5" />
-      <rect x="1.5" y="1.5" width="143" height="14" rx="7" fill="url(#tag-shine)" />
-      <circle cx="14" cy="16" r="3.6" fill="#9E6A43" />
-      <text x="26" y="21.6">Albert Camus</text>
+    <g transform="translate(650 42)">
+      <rect width="128" height="24" rx="7" fill="url(#tag-fill)" stroke="url(#tag-stroke)" stroke-width="1.3" />
+      <rect x="1.3" y="1.3" width="125.4" height="21.4" rx="6.2" fill="none" stroke="#A16434" stroke-opacity="0.35" stroke-width="0.8" />
+      <rect width="128" height="24" rx="7" fill="url(#grain)" />
+      <circle cx="11" cy="12" r="2.8" fill="#8A4D25" />
+      <text x="20" y="16.6">Albert Camus</text>
     </g>
   </g>
 </svg>
