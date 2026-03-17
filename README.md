@@ -33,5 +33,9 @@ Want to know more?
 ## GitHub Activity Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alectimison-maker&theme=xcode" alt="alectimison-maker's GitHub Activity Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=alectimison-maker&theme=github-dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=alectimison-maker&theme=github-light" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=alectimison-maker&theme=github-light" alt="alectimison-maker's GitHub Activity Graph" />
+  </picture>
 </div>
