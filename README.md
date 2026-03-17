@@ -92,5 +92,5 @@ Want to know more?
 
 ## GitHub 3D Contributions
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub Contributions" />
+<img src="./profile-3d-contrib/profile-transparent-rainbow.svg" width="100%" alt="3D GitHub Contributions" />
 
