@@ -69,9 +69,7 @@ Dedicated to embedding tension and dynamic lines into every unique piece of wood
 
 Passionate about creating free and unrestrained musical phrases.
 
-<img src="./assets/jazz-albums-flow.svg" width="100%" alt="Flowing jazz album wall" />
-
-<sub>Drop your covers into <code>assets/jazz-covers/cover-01.jpg</code> to <code>cover-12.jpg</code>, then edit titles in <code>assets/jazz-albums-flow.svg</code>.</sub>
+<img src="./assets/jazz-albums-flow-v2.svg" width="100%" alt="Flowing jazz album wall" />
 
 ## A stream-of-consciousness game developer in love with words
 
