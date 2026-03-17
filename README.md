@@ -71,6 +71,10 @@ Passionate about creating free and unrestrained musical phrases.
 
 <img src="./assets/jazz-albums-flow-v3.svg" width="100%" alt="Flowing jazz album wall" />
 
+## An anime lover.
+
+<img src="./assets/anime-posters-flow.svg" width="100%" alt="Flowing anime poster wall" />
+
 ## A stream-of-consciousness game developer in love with words
 
 Want to know more?  
