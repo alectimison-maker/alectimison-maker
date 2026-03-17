@@ -1,129 +1,116 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Flowing jazz album wall">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0c1633"/>
-      <stop offset="100%" stop-color="#091225"/>
-    </linearGradient>
     <clipPath id="cover-clip">
       <rect x="12" y="12" width="126" height="126" rx="10"/>
     </clipPath>
-    <style>
-      .title { font: 700 13px 'Trebuchet MS', 'Segoe UI', sans-serif; fill: #f3efe6; }
-      .subtitle { font: 500 10px 'Trebuchet MS', 'Segoe UI', sans-serif; fill: #d4cfbf; }
-      .panel { fill: rgba(5, 8, 16, 0.86); }
-    </style>
     <symbol id="album-card" viewBox="0 0 150 150">
-      <rect x="0" y="0" width="150" height="150" rx="14" fill="#111b34"/>
-      <rect x="12" y="12" width="126" height="126" rx="10" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.24)"/>
-      <rect x="12" y="101" width="126" height="37" rx="0" class="panel"/>
+      <rect x="12" y="12" width="126" height="126" rx="10" fill="none" stroke="rgba(120,120,120,0.38)"/>
     </symbol>
   </defs>
-
-  <rect width="1200" height="190" fill="url(#bg)"/>
 
   <g transform="translate(0,20)">
     <g id="track-a">
       <g transform="translate(0,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-01.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 01</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(170,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-02.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 02</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(340,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-03.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 03</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(510,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-04.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 04</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(680,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-05.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 05</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(850,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-06.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 06</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(1020,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-07.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 07</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(1190,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-08.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 08</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1360 0" dur="36s" repeatCount="indefinite"/>
+      <g transform="translate(1360,0)">
+        <image href="./jazz-covers/cover-09.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
+        <use href="#album-card"/>
+      </g>
+      <g transform="translate(1530,0)">
+        <image href="./jazz-covers/cover-10.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
+        <use href="#album-card"/>
+      </g>
+      <g transform="translate(1700,0)">
+        <image href="./jazz-covers/cover-11.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
+        <use href="#album-card"/>
+      </g>
+      <g transform="translate(1870,0)">
+        <image href="./jazz-covers/cover-12.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
+        <use href="#album-card"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-2040 0" dur="46s" repeatCount="indefinite"/>
     </g>
 
-    <g id="track-b" transform="translate(1360,0)">
+    <g id="track-b" transform="translate(2040,0)">
       <g transform="translate(0,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-01.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 01</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(170,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-02.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 02</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(340,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-03.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 03</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(510,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-04.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 04</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(680,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-05.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 05</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(850,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-06.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 06</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(1020,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-07.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 07</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
       <g transform="translate(1190,0)">
-        <use href="#album-card"/>
         <image href="./jazz-covers/cover-08.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
-        <text x="18" y="116" class="title">Album 08</text>
-        <text x="18" y="132" class="subtitle">Jazz Pick</text>
+        <use href="#album-card"/>
       </g>
-      <animateTransform attributeName="transform" type="translate" from="1360 0" to="0 0" dur="36s" repeatCount="indefinite"/>
+      <g transform="translate(1360,0)">
+        <image href="./jazz-covers/cover-09.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
+        <use href="#album-card"/>
+      </g>
+      <g transform="translate(1530,0)">
+        <image href="./jazz-covers/cover-10.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
+        <use href="#album-card"/>
+      </g>
+      <g transform="translate(1700,0)">
+        <image href="./jazz-covers/cover-11.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
+        <use href="#album-card"/>
+      </g>
+      <g transform="translate(1870,0)">
+        <image href="./jazz-covers/cover-12.jpg" x="12" y="12" width="126" height="126" preserveAspectRatio="xMidYMid slice" clip-path="url(#cover-clip)"/>
+        <use href="#album-card"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate" from="2040 0" to="0 0" dur="46s" repeatCount="indefinite"/>
     </g>
   </g>
 </svg>

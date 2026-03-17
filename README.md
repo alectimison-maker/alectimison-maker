@@ -71,7 +71,7 @@ Passionate about creating free and unrestrained musical phrases.
 
 <img src="./assets/jazz-albums-flow.svg" width="100%" alt="Flowing jazz album wall" />
 
-<sub>Drop your covers into <code>assets/jazz-covers/cover-01.jpg</code> to <code>cover-08.jpg</code>, then edit titles in <code>assets/jazz-albums-flow.svg</code>.</sub>
+<sub>Drop your covers into <code>assets/jazz-covers/cover-01.jpg</code> to <code>cover-12.jpg</code>, then edit titles in <code>assets/jazz-albums-flow.svg</code>.</sub>
 
 ## A stream-of-consciousness game developer in love with words
 
