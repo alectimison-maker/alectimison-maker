@@ -1,4 +1,4 @@
-# Hi,I'm aliouswe.
+
 <h3 align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1000&color=23F709&center=true&vCenter=true&width=700&lines=Hi%2CI'm%20aliouswe." alt="Typing SVG" />
