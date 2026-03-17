@@ -57,6 +57,7 @@ Specializing in pour-over, espresso, and experimental coffee development.
 
 Some of my personal favorites include The Great Navigator from Peet's, Three Africas from Blue Bottle, Bomb Bomb from Rarakiddo, and Mini Guava from Captain George. Each of these beans offers something unique - whether it's bright fruit notes, layered sweetness, or a clean and expressive finish.
 
+Exploring different roasters and origins is one of the ways I continue to deepen my understanding of coffee and refine my brewing style.
 <br clear="right" />
 
 ## An original wood carving artist rooted in raw expression
