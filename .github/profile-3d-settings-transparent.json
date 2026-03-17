@@ -1,6 +1,6 @@
 {
   "type": "rainbow",
-  "fileName": "profile-3d-contrib/profile-transparent-rainbow.svg",
+  "fileName": "profile-transparent-rainbow.svg",
   "backgroundColor": "rgba(0,0,0,0)",
   "foregroundColor": "#1f2328",
   "strongColor": "#0969da",
@@ -19,7 +19,7 @@
   "hueRatio": -7,
   "darkMode": {
     "type": "rainbow",
-    "fileName": "profile-3d-contrib/profile-transparent-rainbow.svg",
+    "fileName": "profile-transparent-rainbow.svg",
     "backgroundColor": "rgba(0,0,0,0)",
     "foregroundColor": "#e6edf3",
     "strongColor": "#58a6ff",
