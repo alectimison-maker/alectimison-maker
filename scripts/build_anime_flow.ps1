@@ -31,10 +31,26 @@ $encParams.Param[0] = New-Object System.Drawing.Imaging.EncoderParameter(
 )
 
 Get-ChildItem $outDir -File -ErrorAction SilentlyContinue | Where-Object {
-  $_.Name -ne ".gitkeep"
-} | Remove-Item -Force
+  $_.Name -like "poster-*.jpg"
+} | Sort-Object Name | Out-Null
 
-$idx = 1
+$existingPosters = Get-ChildItem $outDir -File -ErrorAction SilentlyContinue | Where-Object {
+  $_.Name -like "poster-*.jpg"
+} | Sort-Object Name
+
+$existingHashes = New-Object "System.Collections.Generic.HashSet[string]"
+$maxIndex = 0
+foreach ($p in $existingPosters) {
+  $hash = (Get-FileHash -Path $p.FullName -Algorithm SHA256).Hash
+  [void]$existingHashes.Add($hash)
+  if ($p.Name -match "^poster-(\d+)\.jpg$") {
+    $n = [int]$Matches[1]
+    if ($n -gt $maxIndex) { $maxIndex = $n }
+  }
+}
+
+$idx = $maxIndex + 1
+$addedCount = 0
 foreach ($f in $srcFiles) {
   $img = [System.Drawing.Image]::FromFile($f.FullName)
   try {
@@ -68,10 +84,30 @@ foreach ($f in $srcFiles) {
       $g.Dispose()
     }
 
+    $ms = New-Object System.IO.MemoryStream
+    $bmp.Save($ms, $jpegCodec, $encParams)
+    $bytes = $ms.ToArray()
+    $ms.Dispose()
+
+    $sha = [System.Security.Cryptography.SHA256]::Create()
+    try {
+      $hashBytes = $sha.ComputeHash($bytes)
+    } finally {
+      $sha.Dispose()
+    }
+    $hashHex = [BitConverter]::ToString($hashBytes).Replace("-", "")
+
+    if ($existingHashes.Contains($hashHex)) {
+      $bmp.Dispose()
+      continue
+    }
+
     $outPath = Join-Path $outDir ("poster-{0:D2}.jpg" -f $idx)
-    $bmp.Save($outPath, $jpegCodec, $encParams)
+    [System.IO.File]::WriteAllBytes($outPath, $bytes)
+    [void]$existingHashes.Add($hashHex)
     $bmp.Dispose()
     $idx++
+    $addedCount++
   } finally {
     $img.Dispose()
   }
@@ -145,4 +181,5 @@ $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 [System.IO.File]::WriteAllText($svgPath, $sb.ToString(), $utf8NoBom)
 
 Write-Output ("Generated posters: {0}" -f $posters.Count)
+Write-Output ("Appended new posters: {0}" -f $addedCount)
 Get-Item $svgPath | Select-Object FullName, Length, LastWriteTime
