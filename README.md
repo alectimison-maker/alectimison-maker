@@ -1,4 +1,10 @@
-# Hi, I'm aliouswe.
+# Hi,I'm aliouswe.
+<h3 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1000&color=23F709&center=true&vCenter=true&width=700&lines=Hi%2CI'm%20aliouswe." alt="Typing SVG" />
+  </a>
+</h3>
+
 <img width="1080" height="1240" alt="image" src="https://github.com/user-attachments/assets/90081c57-880a-4a5e-9dbd-3ef6240e8cae" />
 
 
