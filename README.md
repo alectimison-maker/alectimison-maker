@@ -77,6 +77,8 @@ Passionate about creating free and unrestrained musical phrases.
 
 ## A stream-of-consciousness game developer in love with words
 
+<img src="./assets/writer-tags.svg" width="100%" alt="Favorite writer tags" />
+
 Want to know more?  
 [Aliouswe's Nonsense](https://aliouswe.com/)
 
