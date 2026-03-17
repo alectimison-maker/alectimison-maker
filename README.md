@@ -29,3 +29,9 @@ Passionate about creating free and unrestrained musical phrases.
 
 Want to know more?  
 [Aliouswe's Nonsense](https://aliouswe.com/)
+
+## GitHub Activity Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alectimison-maker&theme=xcode" alt="alectimison-maker's GitHub Activity Graph" />
+</div>
